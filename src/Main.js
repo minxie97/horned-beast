@@ -31,9 +31,7 @@ class Main extends Component {
     render() {
             return (
                 <>
-                    {imgArr.map(item => {
-                        return <HornedBeast image_url={item.image_url} keyword={item.keyword} title={item.title} description={item.description} />
-                    })}
+                    {imgArr.map(item => <HornedBeast image_url={item.image_url} keyword={item.keyword} title={item.title} description={item.description} />)}
                 </>
             )
     }
