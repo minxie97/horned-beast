@@ -25,7 +25,7 @@ let imgArr = [{
     "horns": 1
 }];
 
-//shout to google for teaching me .map()
+//shout out to Sam and Chloe for pointing me towards .map() and google for teaching me .map()
 
 class Main extends Component {
     render() {
