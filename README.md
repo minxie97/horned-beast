@@ -1,6 +1,6 @@
 # Project Overview
 
-The Horned Beasts application is an application that aims to displays images and information of horned animals. This application will allow you to filter the images by number of horns and chose your favorite image. Created using ReactJS.
+The Horned Beasts application is an application that aims to displays images and information of horned animals. This application will allow you to filter the images by number of horns and chose your favorite image. Created using ReactJS. Lab for Code Fellows 301 course. 
 
 # Time Estimates
 ## Feature 1
