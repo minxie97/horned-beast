@@ -1,9 +1,9 @@
 .card {
-  display: flex;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 #00000033;
   border-radius: 5px;
-  height: 20rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem;
+  border: thin solid black;
+  padding: 5px;
 }
 
 .card:hover {
@@ -11,5 +11,5 @@
 }
 
 .row {
-
+  align-items:center;
 }
