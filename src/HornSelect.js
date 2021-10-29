@@ -13,7 +13,7 @@ export default class HornSelect extends Component {
 
     handleChange = (event) => {
         let selection = event.target.value;
-        let newData = this.props.data.filter(beast => beast.horns == selection);
+        let newData = this.props.data.filter(beast => beast.horns === Number(selection));
         this.props.showHorns(newData);
         this.setState({ previousState: newData })
         if (selection === "All") {
