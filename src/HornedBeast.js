@@ -13,9 +13,9 @@ class HornedBeast extends Component {
         }
     }
 
-    handleClick = (obj) => {
+    handleClick = (data) => {
         this.setState({ numberOfLikes: this.state.numberOfLikes + 1 });
-        this.props.showModal(obj);
+        this.props.showModal(data);
     }
     
     render() {
