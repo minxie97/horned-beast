@@ -20,7 +20,6 @@ class HornedBeast extends Component {
     
     render() {
         return (
-            <div>
                 <Card style={{ width: '18rem' }} onClick={() => this.handleClick(this.props)}>
                     <Card.Img src={this.props.image_url} alt={this.props.keyword} title={this.props.title} />
                     <Card.Body>
@@ -28,7 +27,6 @@ class HornedBeast extends Component {
                         <Card.Text><HeartFill/> {this.state.numberOfLikes}</Card.Text>
                     </Card.Body>
                 </Card>
-            </div>
         )
     }
 }

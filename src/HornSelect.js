@@ -25,7 +25,6 @@ export default class HornSelect extends Component {
     }
 
     render() {
-
         return (
             <Form.Select onChange={this.handleChange}>
                 <option value="default">Select Number of Horns</option>
